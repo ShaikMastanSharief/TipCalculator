@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <button id="themeToggle">☀️ Theme</button>
+
+  <div class="container">
+    <h1>Tip Calculator</h1>
+
+    <input type="number" id="billAmount" placeholder="Bill Amount ($)" />
+    <input type="number" id="tipPercentage" placeholder="Tip Percentage (%)" />
+    <input type="number" id="peopleCount" placeholder="Number of People" />
+
+    <button id="calculateButton">Calculate</button>
+
+    <p id="error"></p>
+
+    <div id="results">
+      <p id="tipAmount"></p>
+      <p id="totalAmount"></p>
+      <p id="perPerson"></p>
+    </div>
+  </div>
+</body>
+</html>
